@@ -1,25 +1,8 @@
 import 'package:flutter/material.dart';
-import 'views/redacteur_interface.dart';
 
 void main() {
-  runApp(const MonApplication());
+  runApp(const MonAppli());
 }
-
-// ── Activité 5 – Point d'entrée principal ──────────────────────────────────
-class MonApplication extends StatelessWidget {
-  const MonApplication({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      title: 'Gestion des Rédacteurs',
-      debugShowCheckedModeBanner: false,
-      home: RedacteurInterface(),
-    );
-  }
-}
-
-// ── Activité 4.1 / 4.2 – Code Magazine Infos (conservé) ───────────────────
 
 class MonAppli extends StatelessWidget {
   const MonAppli({super.key});
